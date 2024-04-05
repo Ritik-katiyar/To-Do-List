@@ -149,3 +149,14 @@ footer {
     bottom: 0;
     width: 100%;
 }
+@media (max-width: 768px) {
+    .navbar-brand img {
+        height: 40px; 
+    }
+    .navbar-nav {
+        margin-top: 10px;
+    }
+    .navbar-nav .nav-link {
+        padding: 0.5rem;
+    }
+}
